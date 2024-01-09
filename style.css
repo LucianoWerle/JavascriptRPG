@@ -1,11 +1,13 @@
 body {
-    background-color: #008a35;
+  background-image: url('img/pexels.jpg');
+  padding-top: 100px;
   }
   
   #text {
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 25px;
+    border-radius: 3px;
   }
   
   #game {
@@ -15,17 +17,22 @@ body {
     color: white;
     margin: 0 auto;
     padding: 10px;
+    border-radius: 3px;
+    text-align: center;
   }
   
   #controls {
+    text-align: center;
     border: 1px black solid;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 3px;
   }
   
   #stats {
     border: 1px black solid;
     color: black;
     padding: 5px;
+    border-radius: 3px;
   }
   
   #monsterStats {
@@ -34,6 +41,7 @@ body {
     color: white;
     padding: 5px;
     background-color: red;
+    border-radius: 3px;
   }
   
   .stat {
